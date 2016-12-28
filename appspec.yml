@@ -13,8 +13,6 @@ permissions:
        - file
 hooks:
    BeforeInstall:
-     - location: scripts/installjava.sh
-       runas: root
     - location: scripts/installapache.sh
       runas: root
     - location: scripts/startapache.sh
